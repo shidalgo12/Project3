@@ -108,7 +108,7 @@ function buildChart1(chart){
       },
       yaxis2: {
         overlaying: 'y1', 
-        range: [0, 40500000], 
+        range: [0, 41000000], 
         showgrid: false, 
         side: 'right', 
         title: 'SALARY',
