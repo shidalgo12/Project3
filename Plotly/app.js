@@ -99,21 +99,21 @@ function buildChart1(chart){
       },
       margin: {
         l: 50,
-        r: 100,
+        r: 50,
         b: 70,
-        // t: 15,
+        t: 70,
         pad: 4
       },
       width: 550,
       height: 425,
       yaxis: { 
         automargin: true,
-        name: 'TOTALS',
-        range: [0, 4400]
+        name: 'PERFORMANCE TOTALS',
+        range: [0, 4500]
       },
       yaxis2: {
         overlaying: 'y1', 
-        range: [0, 41000000], 
+        range: [0, 45000000], 
         showgrid: false, 
         side: 'right', 
         title: 'SALARY',
@@ -123,7 +123,7 @@ function buildChart1(chart){
       showlegend: true,
       legend: {
         x: 1.1,
-        y: 1.05
+        y: 1.07
       }
 
     };
@@ -276,22 +276,22 @@ function buildChart2(chart){
       },
       margin: {
         l: 50,
-        r: 100,
+        r: 50,
         b: 70,
-        // t: 15,
+        t: 70,
         pad: 4
       },
       width: 550,
       height: 425,
       yaxis: { 
         automargin: true,
-        name: 'TOTALS',
-        range: [0, 4400]
+        name: 'PERFORMANCE TOTALS',
+        range: [0, 4500],
       },
       yaxis2: {
         overlaying: 'y1', 
-        range: [0, 41000000], 
-        showgrid: false, 
+        range: [0, 45000000], 
+        showgrid: false,
         side: 'right', 
         title: 'SALARY',
         automargin: true,
@@ -300,7 +300,7 @@ function buildChart2(chart){
       showlegend: true,
       legend: {
         x: 1.1,
-        y: 1.05
+        y: 1.07
       }
 
     };
