@@ -25,6 +25,9 @@ function buildChart1(chart){
     var salary = resultArray.map(row => row.SALARY);
     console.log(salary);
 
+    var team = resultArray.map(row => row.TEAM);
+    console.log(team);
+
     // Create trace for PTS
     var trace1 = {
       x: season,
@@ -37,7 +40,7 @@ function buildChart1(chart){
     var trace2 = {
       x: season,
       y: AST,
-      name: "ASSISTS",
+      name: "ASISTS",
       marker: {color: '#FF6600)'},
       type: "bar",
     };
@@ -54,6 +57,8 @@ function buildChart1(chart){
       x: season,
       y: STL,
       name: "STEALS",
+      text: team,
+      textposition: 'outside',
       marker: {color: '#FFFF00'},
       type: "bar"
     };
@@ -72,7 +77,7 @@ function buildChart1(chart){
     };
 
     // Combine all traces
-    var data = [trace1,trace2,trace3,trace4,trace5];
+    var data =[trace1,trace2,trace3,trace4,trace5];
     
     var layout = {
       barmode: 'stack',
@@ -194,6 +199,9 @@ function buildChart2(chart){
     var STL = resultArray.map(row => row.STL);
     console.log(STL);
 
+    var team = resultArray.map(row => row.TEAM);
+    console.log(team);
+
     var salary = resultArray.map(row => row.SALARY);
     console.log(salary);
 
@@ -209,7 +217,7 @@ function buildChart2(chart){
     var trace2 = {
       x: season,
       y: AST,
-      name: "ASSISTS",
+      name: "ASISTS",
       marker: {color: '#FF6600)'},
       type: "bar",
     };
@@ -226,6 +234,8 @@ function buildChart2(chart){
       x: season,
       y: STL,
       name: "STEALS",
+      text: team,
+      textposition: 'outside',
       marker: {color: '#FFFF00'},
       type: "bar"
     };
