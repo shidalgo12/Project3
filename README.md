@@ -1,5 +1,5 @@
 # The Last Dance Final Project
-We were recently inspired by the documentary, ‘The Last Dance’. This docu series focuses on the 1997-98 season for Chicago -- Michael Jordan's last year with the Chicago Bulls. In addition, the series also shed some light on Jordan's head coach, Phil Jackson, and key teammates Scottie Pippen and Dennis Rodman. 
+We were recently inspired by the documentary, ‘The Last Dance’. This docu series focuses on the 1997-98 season for Chicago Michael Jordan's last year with the Chicago Bulls. In addition, the series also shed some light on Jordan's head coach, Phil Jackson, and key teammates Scottie Pippen and Dennis Rodman. 
 
 We find this topic to be extremely relatable during these unprecedented times as American professional leagues have suspended their seasons. This is also a great opportunity to dive into non-health/medical data and further develop, enhance, and practice our coding skills. 
 
