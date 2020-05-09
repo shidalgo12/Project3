@@ -40,7 +40,7 @@ function buildChart1(chart){
     var trace2 = {
       x: season,
       y: AST,
-      name: "ASISTS",
+      name: "ASSISTS",
       marker: {color: '#FF6600)'},
       type: "bar",
     };
@@ -217,7 +217,7 @@ function buildChart2(chart){
     var trace2 = {
       x: season,
       y: AST,
-      name: "ASISTS",
+      name: "ASSISTS",
       marker: {color: '#FF6600)'},
       type: "bar",
     };
